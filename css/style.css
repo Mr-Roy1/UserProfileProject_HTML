@@ -1,0 +1,135 @@
+body{
+    background: linear-gradient(
+        60deg,
+     rgba(255, 165, 150, 0.5) 5%,
+     rgba(0, 228, 255, 0.35)),
+     url('../images/background.jpg');
+    background-repeat:no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Source Sans Pro', sans-serif;
+
+
+}
+
+/* ---------------------------------------main secton block start here -------------------------*/
+#mainsection{
+    background: #ffffff;
+    width: 21%;
+    padding: 40px;
+    margin: 50px auto;
+    position: relative;
+    border-radius: 5px;
+    box-sizing: inherit;
+     text-align: center; /*text or image only for changing position*/
+     
+        
+}
+
+/* -----------------------------------------main secton block end here----------------------------- */
+
+/* .f{
+    text-align: center;
+} */
+/* .line{
+    box-sizing: inherit;
+} */
+
+
+.fig{
+   
+    border-radius: 100%;
+} 
+
+.para{
+    letter-spacing: 2.5px;
+}
+
+
+ul{
+    padding: 0%;
+    margin: 0%;
+    list-style: none;
+}
+/* in css we have display property */
+ul li{
+    display: inline-block;
+    padding: 10px;
+
+
+}
+h1{
+    color: #313f47;
+    font-weight: 300;
+    font-size: 27px;
+    text-transform: uppercase;
+    letter-spacing: 5.5px;
+    /* text-shadow: blueviolet 1px 4px 1px; */
+    /* text-decoration: underline;
+    text-decoration: line-through;
+    text-decoration: underline; */
+    /* text-indent: -9999px; ( for movie content  but space are there) */
+}
+
+h1:hover{
+    transform: scale(3);
+    transition: ease-in-out all 1.9s;
+    /* transition: cubic-bezier(0.6, -0.28, 0.735, 0.045); */
+    color: red;
+    font-size: 40px;
+
+
+}
+
+
+img:hover{
+    transform: rotate(360deg);
+    transition: ease-in-out all 2.5s;
+    border: 1px solid #111111;
+}
+i{
+    font-size: 24px;
+}
+
+.fa-twitter:hover{
+    color: #00acee;
+    
+
+}
+.fa-facebook-square:hover{
+    color: #3b5998;
+}
+.fa-instagram:hover{
+    color: #3f729b;
+
+}
+ul li a{
+    border: 1px solid #cccccc;
+    padding: 15px;
+    border-radius: 100%;
+    height: 25px;
+    width: 25px;
+    display: inline-block;
+    
+
+    
+}
+ul li a:hover{
+    border-color: #00acee;
+
+}
+.fab{
+    color:#cccccc;
+    font: size 27px; ;
+}
+#copyright{
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    letter-spacing: 2.5px;
+}
